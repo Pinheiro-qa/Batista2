@@ -19,9 +19,7 @@ describe('Batista', () => {
             cy.get('.row.center')
               .should('be.visible')
               .and('contain', 'Usuário Criado com sucesso')
-
-              
-              
+           
         })  
     })
     it('Lista', () => {
